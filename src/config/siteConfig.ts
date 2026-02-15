@@ -69,7 +69,7 @@ export const siteConfig: SiteConfig = {
 			alt: "🍀",
 		},
 		// 导航栏标题
-		title: "Firefly",
+		title: "Gucrin",
 		// 全宽导航栏，导航栏是否占满屏幕宽度，true：占满，false：不占满
 		widthFull: false,
 		// 导航栏图标和标题是否跟随主题色
@@ -111,9 +111,9 @@ export const siteConfig: SiteConfig = {
 	// bangumi的数据为编译时获取的，所以不是实时数据，请配置bangumi.userId
 	pages: {
 		// 赞助页面开关
-		sponsor: true,
+		sponsor: false,
 		// 留言板页面开关，需要配置评论系统
-		guestbook: true,
+		guestbook: false,
 		// 番组计划页面开关，含追番、游戏、书籍和音乐，dev调试时只获取一页数据，build才会获取全部数据
 		bangumi: false,
 	},
