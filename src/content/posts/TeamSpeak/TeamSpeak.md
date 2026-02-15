@@ -23,7 +23,7 @@ TeamSpeak 是一款硬核的实时语音工具。于 2001 年发布。它以**�
 首先前往 [官网](https://www.teamspeak.com/en/downloads/) 下载 Server 端。例如 Windows 平台的 Server 64-bit 3.13.7，下载完成后进行安装即可。
 
 首次启动服务器，应有一个如下图所示的窗口!
-(./IMG_20260216_000037.jpg)
+![服务器密钥](./IMG_20260216_000037.jpg)
 请 ==一定一定一定保存好 Server Admin Privilege Key== ，这个密钥 ==只会出现这一次== ，后面我们还需要使用它！
 
 接下来回到 TeamSpeak 的客户端，连接上你的服务器，首次连接客户端会提示你输入 Priviledge Key，那我们就把刚刚保存好的 Key 给输入进去，这样你就是这个服务器唯一的管理员了乀(ˉεˉ乀)
