@@ -150,8 +150,7 @@ autoPause: true
 
 ###配置 Bot
 Bot 默认启动在端口 58913 上，使用云服务器的宝子可以用你服务器的公网 IP 访问这个端口即可看到 Web 配置页面~
-
-
+![Web 配置页面示例](./Web.jpg)
 如图所示我们需要填写 Client UID，获取它的方式也很简单，打开 TeamSpeak 客户端，连接到你的服务器，找到刚刚加入频道的 Bot 并发起文字聊天，输入下方指令：
 
 ```bash
@@ -163,7 +162,8 @@ Bot 默认启动在端口 58913 上，使用云服务器的宝子可以用你服
 点击 Jump to your Bots overview，然后点击空白图标 :spoiler[其实是设置]，在 Server 选项卡里可以修改 Bot 所在频道以及名称。
 
 Settings 选项卡可以修改服务器地址 密码 频道密码以及机器人音量。
+![settings 选项卡示例](./Settings.jpg)
 
 Playlist 选项卡可以播放本地音乐，如图所示 File Name 处只要填写音频文件的绝对路径即可~
-
+![Playlist 选项卡示例](./Playlist.jpg)
 例如：C:\Users\Gucrin\Music\NURTURE MEGAMIX.mp3
