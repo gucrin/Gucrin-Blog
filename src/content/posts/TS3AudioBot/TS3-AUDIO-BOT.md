@@ -1,7 +1,7 @@
 ---
 title: 给你的语音服务器加点乐趣ฅ՞•ﻌ•՞ฅ — 部署 TS3 音乐机器人
 description: 这里也能网抑云😵‍💫
-published: 2026-02-16 10:47
+published: 2026-02-16
 image: https://raw.githubusercontent.com/gucrin/RyuChan-Pic/main/img/1.5889197846586983E9.jpeg
 draft: false
 tags:
