@@ -132,7 +132,7 @@ Please enter the server password (or leave empty for none):
 
 看到如上输入就代表着 Bot 已经加入你的服务器了🎉
 
-###接入网易云 API 
+### 接入网易云 API 
 
 打开 Bot 文件夹，找到 plugins 文件夹，修改 neteaseApi 参数
 
@@ -148,7 +148,7 @@ autoPause: true
 
 前面我们本地部署的 API 运行在 localhost:3000，因此我们就修改为此地址。
 
-###配置 Bot
+# 配置 Bot
 Bot 默认启动在端口 58913 上，使用云服务器的宝子可以用你服务器的公网 IP 访问这个端口即可看到 Web 配置页面~
 ![Web 配置页面示例](./web.png)
 如图所示我们需要填写 Client UID，获取它的方式也很简单，打开 TeamSpeak 客户端，连接到你的服务器，找到刚刚加入频道的 Bot 并发起文字聊天，输入下方指令：
@@ -171,3 +171,61 @@ Settings 选项卡可以修改服务器地址 密码 频道密码以及机器人
 Playlist 选项卡可以播放本地音乐，如图所示 File Name 处只要填写音频文件的绝对路径即可~
 ![Playlist 选项卡示例](./playlist.png)
 例如：C:\Users\Gucrin\Music\NURTURE MEGAMIX.mp3
+
+### 登录网易云
+有三种方式可以登录网易云：
+
+二维码登录：(输入指令后扫描机器人头像二维码登录)  
+
+- `!yun login netease qr`
+
+验证码登录：
+
+- `!yun login netease sms <手机号> [验证码]`
+
+- 先使用 `!yun login netease sms <手机号>` 获取验证码
+- 在使用 `!yun login netease sms <手机号> <验证码>` 登录
+
+Cookie登录:
+
+- `!yun login netease cookie <Cookie>`
+
+### Bot 命令
+
+先来学习一下命令用法吧
+
+| 命令    | 命令格式                                                    | 注释         |
+| ------- | ---------------------------------------------------------- | ------------ |
+| login   | `!yun login <登录方式>`                              | 登录         |
+| play    | `!yun play <歌单/专辑/歌曲/歌名/歌曲ID>`              | 播放         |
+| add     | `!yun add <歌单/专辑/歌曲/歌名/歌曲ID>`               | 下一首播放   |
+| next    | `!yun next`                                                | 下一首       |
+| gedan   | `!yun gedan <歌单/歌单名/歌单ID> [长度(max/1-9999)]`  | 歌单         |
+| zhuanji | `!yun gedan <专辑/专辑名/专辑ID> [长度(max/1-9999)]`  | 专辑         |
+| mode    | `!yun mode <播放模式>`                                      | 播放模式     |
+| list    | `!yun list`                                                 | 查看播放列表 |
+| clear   | `!yun clear`                                                | 清空播放列表 |
+| stop    | `!yun stop`                                                 | 停止播放     |
+| start   | `!yun start`                                                | 开始播放     |
+| status  | `!yun status`                                               | 查看登录状态 |
+| reload  | `!yun reload`                                               | 重载插件配置 |
+
+播放模式
+
+| 模式 | 注释     |
+| ---- | ------- |
+| `0`  | 顺序播放 |
+| `1`  | 顺序循环 |
+| `2`  | 随机播放 |
+| `3`  | 随机循环 |
+
+例如：
+
+```TEXT
+!yun play Shelter
+```
+
+即可播放名为 Shelter 的歌曲
+
+# 总结
+现在你的点歌机器人可以正常工作啦~ 这次我们使用了两个项目以完成目标，感谢二位项目作者的付出！
