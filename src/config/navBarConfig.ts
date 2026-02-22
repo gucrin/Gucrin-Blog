@@ -32,6 +32,18 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				external: true,
 				icon: "fa7-brands:github",
 			},
+			{
+				name: "App Store 图标下载",
+				url: "https://icon.yukonga.top/",
+				external: true,
+				icon: "fa7-brands:bilibili",
+			},
+			{
+				name: "PNG 转 ICO",
+				url: "https://www.aconvert.com/cn/icon/png-to-ico/",
+				external: true,
+				icon: "fa7-brands:bilibili",
+			},
 		],
 	});
 
