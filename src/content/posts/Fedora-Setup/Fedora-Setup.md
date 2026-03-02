@@ -1,3 +1,14 @@
+---
+title: Fedora 新手进！必看教程来了
+description: 一起加入 Fedora 的世界吧❤️
+published: 2026-03-02
+draft: false
+tags:
+  - Fedora
+  - 系统调试
+category: 系统
+---
+
 ✨ 我的 Fedora Linux Noble 设置指南 (安装后
 
 # 👋 嘿，你好！
