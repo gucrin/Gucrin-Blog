@@ -1,3 +1,14 @@
+---
+title: 自建私人云相册 — Immich 部署教程
+description: Google 相册的表弟来了说是
+published: 2026-02-27
+draft: false
+tags:
+  - 云相册
+  - 部署
+category: 软件
+---
+
 # 前言
 最近给我的小主机 HP Elite 800 G SFF 重装了 Fedora 43 WorkStation 系统，在使用 Docker Compose 安装 Immich 的时候发现了一点问题，不过顺利解决。于是决定顺便把部署过程写出来😎
 
